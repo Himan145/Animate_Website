@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #ffffff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;/*centre from y axis*/
+    justify-content: flex-start;
+    padding:0% 7%;
+    gap: 5%;
+    font-size: 20px;
+    position: fixed;
+    z-index: 99;
+}
+#nav h4{
+    cursor: pointer;
+}
+#nav h4:hover{
+    color: red;
+}
+#nav img{
+    height: 50px;
+}
+video{
+    height: 122%;
+    object-fit: cover;
+    position: fixed;
+
+}
+#main{
+   position: relative;
+   background-color: rgba(39, 37, 37, 0.6);
+}
+#page1{
+    height: 100vh;/*100% of screen*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+#page1 h1{
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: -4px -4px 0px #000000;
+}
+#page1 h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#page1 p{
+    font-size: 25px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+}
+#marquee h4{
+    font-size: 100px;
+    text-transform:uppercase;
+    /*text-shadow: 3px 3px 2px rgb(90, 234, 90);*/
+    word-spacing: 25px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    cursor: pointer;
+}
+#marh4:hover{
+    color: white;
+}
+#about img{
+    height: 200px;
+    width: 15%;
+    border-radius: 1rem;
+}
+#about{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    /*border: 2px solid red;*/
+    align-items: center;
+    padding: 0% 8%;
+    position: relative;
+    z-index: 10;
+}
+#aboutus{
+    width: 60%;
+    margin: 0% 5%;
+    align-items: center;
+}
+#aboutus h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+#aboutus p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card-container{
+    /*border: 2px solid green;*/
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.card{
+    height: 85%;
+    width: 27%;
+    margin: 0% 5%;
+    /*border: 2px solid red;*/
+    border-radius: 4rem;
+    background-size: cover;
+    background-position: center;
+}
+#card1{
+    background-image: url('\wallpaperflare.com_wallpaper (1).jpg');
+}
+#card2{
+    background-image: url('\wallpaperflare.com_wallpaper (2).jpg');
+}
+#card3{
+    background-image: url('\wallpaperflare.com_wallpaper.jpg');
+}
+.crd{
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+    padding-top: 10%;
+    border-radius: 4rem;
+    opacity: 0;
+}
+.crd h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 7%;
+    text-transform: uppercase;
+    color: black;
+}
+.crd p{
+    text-align: center;
+    color: black;
+}
+.card:hover{
+    transform: rotate3d(1,1,0,20deg);/* 1 in x, 1 in y ,0 in z, 20 degree */
+}
+.crd:hover{
+    opacity: 1;
+}
+
+#page3{
+    height: 40vh;
+    width: 100%;
+}
+#green-div{
+    height: 30vh;
+    width: 100%;
+    background-color: green;
+}
+#green-div h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2% 0%;
+    color: #000000;
+}
+#contact{
+    height: 7vh;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#iimg{
+    height: 65%;
+    width: 3%;
+    cursor: pointer;
+}
+#fimg{
+    height: 70%;
+    width: 3%;
+    cursor: pointer;
+}
+#mimg{
+    height: 60%;
+    width: 3%;
+    cursor: pointer;
+}
+#iimg:hover{
+    height: 90%;
+    width: 5%;
+}
+#fimg:hover{
+    height: 90%;
+    width: 5%;
+}
+#mimg:hover{
+    height: 90%;
+    width: 5%;
+}
